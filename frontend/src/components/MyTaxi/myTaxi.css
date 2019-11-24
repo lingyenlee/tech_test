@@ -1,0 +1,83 @@
+/* -----------Styling for MyTaxiContainer Parent component ---------------- */
+
+.myTaxiCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.myTaxiMapBox {
+    position: fixed;
+    margin-left: 220px;
+}
+
+.myTaxiSelect {
+    padding-bottom: 10px;
+}
+
+/* ------------ styling for myTaxiMap component ------------------*/
+
+.greenCar img {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin: 0px;
+    background-color: green;
+}
+
+.greenCar,
+.redCar {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.redCar img {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    padding: 2px;
+    margin: 0px;
+}
+
+button {
+    padding: 0px;
+    border-width: 0px;
+    border-style: none;
+}
+
+
+/* -----------Styling for MyTaxiCard component --------------- */
+.myTaxiCardBody {
+    width: 200px;
+    height: auto;
+    box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 2px 15px rgba(0, 0, 0, 0.07);
+    margin-bottom: 10px;
+}
+
+
+.myTaxiCardText {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 11px;
+    padding: 5px 0px;
+}
+
+.myTaxiCardText p {
+    margin: 0px;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+
+
+.myTaxiStateBox img {
+    width: 70px;
+    height: 70px;
+}
+
+.carID {
+    text-align: center;
+    padding-top: 10px;
+}

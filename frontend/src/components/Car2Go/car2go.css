@@ -1,0 +1,70 @@
+/* -----------Styling for Car2GoContainer component ---------------- */
+.car2GoCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.car2GoMapBox {
+    position: fixed;
+    margin-left: 280px;
+}
+
+.car2GoSelect {
+    padding-bottom: 10px;
+}
+
+/* -------------- Styling for Car2GoMap -------------- */
+.car2goIcon img {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.carLicenseIcon,
+.carLocationIcon {
+    text-align: center;
+}
+
+.carLicenseIcon img {
+    width: 60px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.popUpText p {
+    padding: 5px 0px;
+    margin: 0px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 11px;
+    text-align: center;
+}
+
+.mapContainer {
+    box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 2px 15px rgba(0, 0, 0, 0.07);
+}
+
+/* -----------Styling for Car2GoCard component --------------- */
+.car2GoCardBody {
+    width: 270px;
+    height: auto;
+    box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 2px 15px rgba(0, 0, 0, 0.07);
+    margin-bottom: 10px;
+}
+
+.car2GoCardText {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 11px;
+    padding: 5px 0px;
+}
+
+.car2GoCardText p {
+    margin: 0px;
+    padding: 5px 0px;
+    font-weight: bold;
+}
